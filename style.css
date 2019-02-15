@@ -1,0 +1,265 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: Adnostic;
+	src: url("font/AdonisC.ttf");
+}
+
+@font-face {
+	font-family: Boba;
+	src: url("font/Bebas_Neue_Cyrillic.ttf");
+}
+
+body {
+	background: rgba(228, 241, 254, 1);
+	padding-bottom: 50px;
+}
+
+.menuLine {
+	width: 100%;
+	height: 80px;
+	background: rgb(37, 141, 200);
+	/* Old browsers */
+	background: -moz-linear-gradient(top, rgba(37, 141, 200, 1) 0%, rgba(37, 141, 200, 1) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(37, 141, 200, 1) 0%, rgba(37, 141, 200, 1) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(37, 141, 200, 1) 0%, rgba(37, 141, 200, 1) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#258dc8', endColorstr='#258dc8', GradientType=0);
+	-webkit-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.56);
+	-moz-box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.56);
+	box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.56);
+	margin: auto;
+	border-bottom: 1px solid black;
+}
+
+.menu {
+	max-width: 1000px;
+	height: 80px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.menuLogo {
+	overflow: hidden;
+	max-width: 260px;
+}
+
+.menuLogoImg {
+	width: 72px;
+	float: left;
+}
+
+.menuLogoA {
+	text-decoration: none;
+}
+
+.menuLogoText {
+	float: right;
+	font-family: Boba;
+	font-size: 23px;
+	color: white;
+	text-decoration: none;
+	transition: 0.2s
+}
+
+.menuLogoA:hover .menuLogoText {
+	color: rgba(129, 207, 224, 1);
+	transition: 0.2s
+}
+
+.menuUl {
+	list-style-type: none;
+	padding-top: 30px;
+}
+
+.menuUlLi {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.menuUlLiA {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-family: Boba;
+	transition: 0.2s
+}
+
+.menuUlLiA:hover {
+	color: rgba(129, 207, 224, 1);
+	transition: 0.2s
+}
+
+.menuUlLi:nth-child(1) {
+	margin-left: 0;
+}
+
+.fontSize {
+	list-style-type: none;
+	padding-top: 8px
+}
+
+.fontSizeLi {
+	display: inline-block;
+	font-family: Boba;
+	color: white;
+	font-size: 19px;
+	cursor: pointer
+}
+
+.fontSizeLi:nth-child(1) {
+	font-size: 21px;
+	display: block;
+	cursor: default;
+}
+
+.fontSizeLi:nth-child(3) {
+	color: rgba(129, 207, 224, 1);
+}
+
+.fontSizeLi:nth-child(3),
+.fontSizeLi:nth-child(6) {
+	margin-left: 25px;
+}
+
+
+.mainText {
+	padding-top: 15px;
+	max-width: 1000px;
+	color: black;
+	font-size: 18px;
+	font-family: Boba;
+	margin: auto;
+	overflow: hidden
+}
+
+.headline {
+	font-size: 30px;
+	margin-top: 30px;
+}
+.headline:nth-child(1){
+	margin-top: 0;
+}
+
+.text {
+	font-family: Adnostic;
+	text-align: justify;
+	margin-top: 25px;
+}
+
+.void {
+	height: 15px;
+	width: 30px;
+	display: inline-block;
+}
+
+.img {
+	display: block;
+	margin: 30px auto 0
+}
+
+.mainPart {
+	display: block;
+	height: 75px;
+	background: rgba(137, 196, 244, 0.6);
+	padding: 20px 15px 20px 85px;
+	font-family: Adnostic;
+	font-style: italic;
+	text-decoration: none;
+	color: black;
+	text-align: right;
+	font-size: 20px;
+	position: relative;
+
+}
+
+.mainPartBlock {
+	margin-top: 152px;
+	position: relative;
+	padding-top: 34px;
+}
+
+.mainPartName {
+	display: block;
+	height: 20px;
+	width: 750px;
+	background: rgba(137, 196, 244, 0.6);
+	padding: 7px;
+	text-align: center;
+	font-size: 23px;
+	padding-bottom: 7px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	margin-top: 30px;
+}
+
+.mainPartName2 {
+	position: absolute;
+	right: 0px;
+	top: 0;
+	margin-top: 0;
+}
+
+.mainPartName3 {
+	margin-top: 0;
+}
+
+.author {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.skobka {
+	position: absolute;
+	font-family: Boba;
+	font-size: 116px;
+	opacity: 0.1;
+	top: -27px;
+	left: 43px;
+}
+
+.line {
+	height: 152px;
+	width: 5px;
+	background-color: rgba(137, 196, 244, 0.6);
+	float: right;
+}
+
+.line2 {
+	float: none;
+}
+
+.imgBlock {
+	margin-top: 25px;
+}
+
+.imgBlockImg {
+	max-width: 800px;
+	display: block;
+	margin: auto;
+}
+
+.imgBlockText {
+	max-width: 500px;
+	margin: 10px auto 0;
+	text-align: center;
+	font-size: 18px;
+	font-family: Adnostic;
+}
+.upToTop{
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	font-family: Boba;
+	font-size: 26px;
+	color: black;
+	text-decoration: none;
+}
