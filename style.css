@@ -38,7 +38,7 @@ body {
 }
 
 .menu {
-	max-width: 1000px;
+	width: 1000px;
 	height: 80px;
 	margin: auto;
 	display: flex;
@@ -48,7 +48,7 @@ body {
 
 .menuLogo {
 	overflow: hidden;
-	max-width: 260px;
+	width: 260px;
 }
 
 .menuLogoImg {
@@ -132,7 +132,7 @@ body {
 
 .mainText {
 	padding-top: 15px;
-	max-width: 1000px;
+	width: 1000px;
 	color: black;
 	font-size: 18px;
 	font-family: Boba;
@@ -242,13 +242,13 @@ body {
 }
 
 .imgBlockImg {
-	max-width: 800px;
+	width: 800px;
 	display: block;
 	margin: auto;
 }
 
 .imgBlockText {
-	max-width: 500px;
+	width: 500px;
 	margin: 10px auto 0;
 	text-align: center;
 	font-size: 18px;
