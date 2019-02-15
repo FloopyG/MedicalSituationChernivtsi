@@ -18,10 +18,10 @@ body {
 	padding-bottom: 50px;
 }
 header{
-	width: 100%;
+	min-width: 1000px;
 }
 main{
-	width: 100%;
+	min-width: 1000px;
 }
 .menuLine {
 	width: 100%;
